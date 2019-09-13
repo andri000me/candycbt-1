@@ -9,7 +9,7 @@ if (!$pilihdb) {
   $ket2 = 'disabled';
 }
 if (isset($_POST['buat'])) {
-  $nama_db = "cbtcandy25";
+  $nama_db = "cbtcandy";
 
   mysql_query("create database $nama_db;");
   header('location:admin/login.php');
